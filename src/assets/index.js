@@ -28,6 +28,7 @@ import saaslabs from "./company/saaslabs.png";
 import ecommerce from "./ecommerce.png";
 import musicapp from "./musicapp.png";
 import portfolio from "./portfolio.png";
+import blog from "./blog.png";
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   ecommerce,
   musicapp,
   portfolio,
+  blog,
 };

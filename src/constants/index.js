@@ -21,6 +21,7 @@ import {
     ecommerce,
     musicapp,
     portfolio,
+    blog,
     threejs,
   } from "../assets";
   
@@ -197,6 +198,27 @@ import {
   
   const projects = [
     {
+      name: "My Blog",
+      description:
+        "A modern blog website to showcase my skills and experience created using nextjs and graphql. It includes pagination, you can comment on the posts and much more.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "graphql",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blog,
+      source_code_link: "https://github.com/bond0887/blog",
+    },
+    {
       name: "Modern UI/UX Portfolio",
       description:
         "A modern UI/UX portfolio to showcase my skills and experience created using react and scss for frontend and ever-developing sanity for backend to update the projects and experience in real time effectively.",
@@ -257,7 +279,7 @@ import {
         },
       ],
       image: ecommerce,
-      source_code_link: "https://github.com/bond0887/CommerceApp",
+      source_code_link: "https://github.com/bond0887/CommereceApp",
     },
   ];
   
